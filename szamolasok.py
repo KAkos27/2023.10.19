@@ -57,14 +57,21 @@ def otodik():
 
 def hatodik():
     szoveg: str = "Indul a kutya és a tyúk aludni"
+    
 
-    i: int = 0
-    hossz: int  = len(szoveg-1)
+    """   i: int = 0
+    hossz: int  = len(szoveg) - 1
     while i > 0:
-        index: int = hossz - i
+      
         print(szoveg[index])
         i -= 1
-    
+     """
+    i: int = 0
+    hossz: int  = len(szoveg)
+    while i < hossz:
+        index: int = hossz - i -1
+        print(szoveg[index])
+        i += 1
     
 
 
