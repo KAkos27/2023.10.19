@@ -1,0 +1,3 @@
+import szamolasok
+
+szamolasok.hatodik()
